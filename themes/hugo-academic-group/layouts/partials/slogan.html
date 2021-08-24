@@ -1,0 +1,35 @@
+<header class="space-below ">
+    <div class="header-content">
+        <div class="header-content-inner">
+            <h1>
+                {{ with .Site.Params.slogan_icon }}
+                    <i class="{{.}}"></i>
+                {{ end }}
+                {{.Site.Params.slogan | safeHTML}}
+            </h1>
+            <!-- <hr> -->
+            <p class="slogan-text">
+                {{.Site.Params.slogan_text}}
+            </p>
+            <div class="container-fluid">
+                <div class="row">
+                    {{range .Site.Params.slogan_columns}}
+                    <div class="col-xs-12 col-md-6">
+                        <h3><a href="{{.link}}">{{.title}}</a></h3>
+                        <p class="slogan-column">{{.text | markdownify}}</p>
+                    </div>
+                    {{end}}
+                </div>
+                <!-- 
+                <div class="row">
+                    {{range .Site.Params.slogan_columns}}
+                    <div class="col-xs-12 col-md-6">
+                        <a href="{{.link}}">{{.link_text}}</a>
+                    </div>
+                    {{end}}
+                </div>
+                -->
+        </div>
+        </div>
+    </div>
+</header>
