@@ -1,7 +1,7 @@
 publishdir = "public"
 static = "/static"
 builddrafts = false
-baseurl = "https://digi.research.vub.be/home/"
+baseurl = "https://digi-vub.github.io/getuigenissen/home/"
 canonifyurls = true
 theme = "hugo-academic-group"
 title = "Getuigenissen"
