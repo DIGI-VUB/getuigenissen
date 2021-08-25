@@ -1,0 +1,2 @@
+- Website built with [Hugo](https://gohugo.io), based on the [Hugo Academic theme](https://github.com/biaslab/hugo-academic-group)
+- To run the website locally run `hugo server --watch` in this root folder
