@@ -59,8 +59,8 @@ header{
 
 .slogan-column {
     text-align: justify;
-    /*background-color:rgba(0,0,0,0.50);*/
-    background-color:rgba(0.00,128,0.00,0.75);
+    background-color:rgba(0,0,0,0.7);
+    /*background-color:rgba(0.00,128,0.00,0.75);*/
     /*background-color:powderblue;*/
 }
 
