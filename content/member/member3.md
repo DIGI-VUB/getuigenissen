@@ -22,7 +22,7 @@ title = "Member 3"
 [[education]]
     course = "Doctor of Philosophy - History"
     year = 2012
-    institution = 'Universiteit Antwerpen'
+    institution = 'Universiteit Antwerpen / Universiteit Gent'
     
 [[education]]
     course = "Master in Geschiedenis"
