@@ -30,7 +30,7 @@ tag = "tags"
   
   [[params.slogan_columns]]
     title = "Zoek"
-    text = "**U kunt deze 18e en 19e eeuws gegevens doorzoeken door woorden op te geven of te selecteren op bepaalde groepen van metadata diei we verzameld hebben over elke getuigenis.  Meer informatie vindt u [via deze link](/zoek)**"
+    text = "**U kunt deze 18e en 19e eeuws gegevens doorzoeken door woorden op te geven of te selecteren op bepaalde groepen van metadata die we verzameld hebben over elke getuigenis.  Zo kan u zoeken op naam, locatie, beroep, misdrijf, ... . Meer informatie vindt u [via deze link](/zoek)**"
     link = "/zoek"
     link_text = "lees verder"
     weight = 2
